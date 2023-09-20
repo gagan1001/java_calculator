@@ -1,5 +1,3 @@
-package calculator;
-
 public class Calculator
 {
 	public static void main (String args[])
@@ -15,4 +13,10 @@ public class Calculator
 		
 		System.out.println(result);
 		}
+}
+
+public class doArithmetic {
+	public double Add(double inputa, double inputb) {	
+		return inputa + inputb;
+	}
 }
